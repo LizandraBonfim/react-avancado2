@@ -6,8 +6,7 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
   "attributes": {
     "name": {
@@ -15,7 +14,7 @@
       "required": true,
       "unique": true
     },
-    "slud": {
+    "slug": {
       "type": "uid",
       "targetField": "name",
       "required": true
